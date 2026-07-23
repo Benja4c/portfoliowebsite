@@ -5,7 +5,7 @@ import { CyberGrid } from './CyberGrid';
 import { Button } from './ui/button';
 import { ChevronDown } from 'lucide-react';
 import heroBackground from '@/assets/cyber-hero-bg.jpg';
-import profilePhoto from '@/assets/profile.jpeg';
+import profilePhoto from '@/assets/profile.png';
 
 export const HeroSection: React.FC = () => {
   const [showTitle, setShowTitle] = useState(false);
@@ -76,7 +76,7 @@ export const HeroSection: React.FC = () => {
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-cyber-cyan shadow-[0_0_40px_theme(colors.cyber.cyan)] overflow-hidden">
                   <img 
                     src={profilePhoto} 
-                    alt="Michael Kinuthia - Systems Engineer & Web3 Architect"
+                    alt="Shadrack Nzong'a - data scientist & Web3 developer"
                     className="w-full h-full object-cover"
                     style={{ objectPosition: 'left center' }}
                   />
@@ -94,10 +94,10 @@ export const HeroSection: React.FC = () => {
                   &gt; Identifying user...
                 </div>
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold glow-green mb-2">
-                  MICHAEL KINUTHIA
+                  Shadrack Nzong'a
                 </h1>
                 <div className="font-mono text-cyber-purple text-sm md:text-base">
-                  [USER_ID: 0x7A3F9C2E] [ACCESS_LEVEL: ROOT]
+                  
                 </div>
               </div>
             </motion.div>
@@ -109,12 +109,12 @@ export const HeroSection: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
             >
               <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                <span className="glow-cyan block mb-2">SYSTEMS</span>
-                <span className="glow-purple">ENGINEER</span>
+                <span className="glow-cyan block mb-2">Blockchain developer</span>
+                <span className="glow-purple">Data scientist</span>
               </h2>
               <div className="glow-green text-xl md:text-2xl lg:text-3xl font-mono">
                 <TypingEffect 
-                  text="Rust Developer | Web3 Architect | Security Auditor"
+                  text="Solidity Developer | Web3 Architect | ML Engineer"
                   speed={100}
                   onComplete={() => setShowSubtitle(true)}
                 />
@@ -133,7 +133,7 @@ export const HeroSection: React.FC = () => {
           >
             <div className="text-cyber-cyan text-lg md:text-xl font-mono">
               <TypingEffect 
-                text="Web3 | Web2 | Security | UI/UX"
+                text="Web3 | Smart Contracts| Machine Learning | AI"
                 speed={80}
                 onComplete={() => setShowButtons(true)}
               />
@@ -172,7 +172,7 @@ export const HeroSection: React.FC = () => {
               className="flex flex-col items-center text-cyber-cyan"
             >
               <span className="text-sm font-mono mb-2">SCROLL TO CONTINUE</span>
-              <ChevronDown className="w-6 h-6 glow-cyan" />
+              <ChevronDown className="w-8 h-2 glow-cyan" />
             </motion.div>
           </motion.div>
         )}

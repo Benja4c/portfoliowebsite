@@ -25,19 +25,19 @@ export const ContactSection: React.FC = () => {
     switch (cmd) {
       case 'github':
         setTerminalHistory(prev => [...prev, 'Opening GitHub profile...']);
-        setTimeout(() => window.open('https://github.com/Michaelmk708', '_blank'), 500);
+        setTimeout(() => window.open('https://github.com/benja4c', '_blank'), 500);
         break;
       case 'linkedin':
         setTerminalHistory(prev => [...prev, 'Opening LinkedIn profile...']);
-        setTimeout(() => window.open('https://www.linkedin.com/in/michaelkinuthia708', '_blank'), 500);
+        setTimeout(() => window.open('https://www.linkedin.com/in/bennzonga', '_blank'), 500);
         break;
       case 'email':
         setTerminalHistory(prev => [...prev, 'Opening email client...']);
-        setTimeout(() => window.open('mailto:michaelkinuthia708@gmail.com', '_blank'), 500);
+        setTimeout(() => window.open('mailto:nzongabenjad@gmail.com', '_blank'), 500);
         break;
       case 'discord':
         setTerminalHistory(prev => [...prev, 'Opening Discord...']);
-        setTimeout(() => window.open('https://discord.com/users/1387770275432628234', '_blank'), 500);
+        setTimeout(() => window.open('https://discord.com/users/@shadrack', '_blank'), 500);
         break;
       case 'help':
       case 'connect --help':
@@ -73,28 +73,28 @@ export const ContactSection: React.FC = () => {
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/Michaelmk708',
+      url: 'https://github.com/benja4c',
       description: 'Open source contributions',
       color: 'cyber-green'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://www.linkedin.com/in/michaelkinuthia708',
+      url: 'https://www.linkedin.com/in/bennzonga',
       description: 'Professional network',
       color: 'cyber-cyan'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:michaelkinuthia708@gmail.com',
+      url: 'mailto:nzongabenja@gmail.com',
       description: 'Direct communication',
       color: 'cyber-purple'
     },
     {
       name: 'Discord',
       icon: MessageSquare,
-      url: 'https://discord.com/users/1387770275432628234',
+      url: 'https://discord.com/users/@shadrack',
       description: 'Community chat',
       color: 'cyber-pink'
     }
@@ -278,10 +278,10 @@ export const ContactSection: React.FC = () => {
           className="text-center mt-16 pt-8 border-t border-cyber-cyan/30"
         >
           <p className="text-muted-foreground font-mono text-sm">
-            © 2025 mkportfolio. All rights reserved. | Built with React + Three.js
+            © 2026 shportifolio. All rights reserved. | Built with React + next.js
           </p>
           <p className="text-cyber-cyan font-mono text-xs mt-2">
-            "Crafting the future of Web & Web3"
+            "Crafting the future of Web3 ecosystem"
           </p>
         </motion.div>
       </div>

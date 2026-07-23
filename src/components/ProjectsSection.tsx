@@ -12,7 +12,7 @@ interface Project {
   status: 'encrypted' | 'decrypted';
   githubUrl?: string;
   liveUrl?: string;
-  icon: React.ComponentType<any>;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement> >;
 }
 
 const projects: Project[] = [
@@ -35,8 +35,8 @@ const projects: Project[] = [
     category: 'Smart Contracts',
     status: 'encrypted',
     icon: Lock,
-    githubUrl: 'https://github.com/Michaelmk708/teminus-inheritance',
-    liveUrl: 'https://termnus.netlify.app/'
+    githubUrl: '',
+    liveUrl: ''
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const projects: Project[] = [
     category: 'Full-Stack Apps',
     status: 'encrypted',
     icon: Zap,
-    liveUrl: 'https://terrayieldpredictor.netlify.app/'
+    liveUrl: ''
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const projects: Project[] = [
     category: 'Full-Stack Apps',
     status: 'encrypted',
     icon: Terminal,
-    githubUrl: 'https://crates.io/crates/oxirast-cli'
+    githubUrl: ''
   },
   {
     id: 5,
@@ -66,8 +66,7 @@ const projects: Project[] = [
     category: 'Web3 dApps',
     status: 'encrypted',
     icon: Zap,
-    githubUrl: 'https://github.com/Michaelmk708/persona-web-icp',
-    liveUrl: 'https://personaportable.netlify.app/'
+    githubUrl:''
   },
   {
     id: 6,
@@ -77,8 +76,8 @@ const projects: Project[] = [
     category: 'Full-Stack Apps',
     status: 'encrypted',
     icon: Code,
-    githubUrl: 'https://github.com/Michaelmk708/lovebox',
-    liveUrl: 'https://lovebox.co.ke/'
+    githubUrl: '',
+    liveUrl: ''
   }
 ];
 

@@ -8,37 +8,31 @@ export const AboutSection: React.FC = () => {
       category: 'Systems & Web3',
       color: 'cyber-purple',
       skills: [
-        { name: 'Rust', level: 92, status: 'proficient' },
-        { name: 'Solana (SVM) / Anchor', level: 88, status: 'proficient' },
-        { name: 'ICP', level: 85, status: 'proficient' },
-        { name: 'WebAssembly', level: 80, status: 'proficient' }
+        { name: 'solidity', level: 70, status: 'proficient' },
+        { name: 'web3.js', level: 88, status: 'proficient' },
+        { name: 'foundry', level: 85, status: 'proficient' },
+        { name: 'hardhat', level: 80, status: 'proficient' },
+        { name: 'web3 security auditing' ,level:40, status: 'learning' }
       ]
     },
-    {
-      category: 'Cybersecurity',
-      color: 'cyber-pink',
-      skills: [
-        { name: 'Penetration Testing', level: 90, status: 'proficient' },
-        { name: 'Web3 Security Auditing', level: 88, status: 'proficient' },
-        { name: 'Ethical Hacking', level: 85, status: 'proficient' },
-        { name: 'Cryptography', level: 80, status: 'proficient' }
-      ]
-    },
+    
+     
     {
       category: 'Backend & Data',
       color: 'cyber-green',
       skills: [
         { name: 'Python', level: 92, status: 'proficient' },
         { name: 'Django', level: 85, status: 'proficient' },
-        { name: 'Machine Learning', level: 75, status: 'learning' }
+        { name: 'Machine Learning', level: 60, status: 'learning' }
       ]
     },
     {
       category: 'Frontend Frameworks',
       color: 'cyber-cyan',
       skills: [
-        { name: 'React', level: 90, status: 'proficient' },
-        { name: 'TypeScript', level: 85, status: 'proficient' }
+        { name: 'React', level: 70, status: 'proficient' },
+        { name: 'TypeScript', level: 85, status: 'proficient'},
+        { name: 'next.js', level: 80, status: 'proficient' },
       ]
     }
   ];
@@ -47,27 +41,22 @@ export const AboutSection: React.FC = () => {
     {
       icon: Terminal,
       title: 'Systems Engineering',
-      description: 'Rust, WebAssembly, CLI Tooling, Low-Level Architecture',
+      description: 'Javascript, Typescript ,Next.js(Frontend Design) Low-Level Architecture',
       color: 'cyber-cyan'
     },
     {
       icon: Zap,
       title: 'Web3 & Blockchain',
-      description: 'Solana, ICP, Smart Contracts, Digital Identity',
+      description: 'Solidity, Smart Contracts, web 3Security , Digital Identity',
       color: 'cyber-purple'
     },
-    {
-      icon: Shield,
-      title: 'Cybersecurity',
-      description: 'Penetration Testing, Web3 Auditing, Protocol Security',
-      color: 'cyber-pink'
-    },
-    {
+     {
       icon: Code,
-      title: 'Full-Stack Integration',
-      description: 'Python, React, Machine Learning, API Development',
+      title: 'Data Science',
+      description: 'Python, Machine Learning, API Development',
       color: 'cyber-green'
-    }
+     },
+  
   ];
 
   return (
@@ -84,7 +73,7 @@ export const AboutSection: React.FC = () => {
           className="mb-16"
         >
           <div className="terminal-border bg-terminal-bg p-6 rounded-lg max-w-4xl mx-auto">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-7 mb-4">
               <div className="flex gap-2">
                 <div className="w-3 h-3 rounded-full bg-destructive"></div>
                 <div className="w-3 h-3 rounded-full bg-cyber-orange"></div>
@@ -95,15 +84,15 @@ export const AboutSection: React.FC = () => {
             </div>
             
             <div className="font-mono text-terminal-text space-y-2">
-              <div className="text-cyber-cyan">USER: Systems Engineer & Web3 Architect</div>
-              <div className="text-cyber-green">ROLE: Software Developer | Security Auditor</div>
-              <div className="text-cyber-purple">SPECIALIZATION: Rust | Solana SVM | ICP | Penetration Testing</div>
+              <div className="text-cyber-cyan">USER: Web 3 developer & Data scientist</div>
+              <div className="text-cyber-green">ROLE: Dapps | ML system</div>
+              <div className="text-cyber-purple">SPECIALIZATION: Solidity| Foundry| Smart contract Auditor | Hardhart</div>
               <div className="text-cyber-pink">LOCATION: Nyeri, Kenya</div>
               <div className="text-cyber-orange">STATUS: Building and Engineering</div>
               <div className="mt-4 text-foreground">
                 Passionate about engineering secure, high-performance systems that bridge the gap between 
-                traditional web infrastructure and the decentralized future. Expert in Rust, smart contract 
-                architecture, and penetration testing, with a strong focus on building robust, scalable solutions.
+                traditional web infrastructure and the decentralized future. Expert in solidity, smart contract 
+                architecture, and machine learning , with a strong focus on building robust, scalable solutions.
               </div>
             </div>
           </div>
